@@ -266,17 +266,11 @@ h2 {
     margin-left: -50px;
 }
 
-#formName {
+.formInput {
     margin-bottom: 5px;
+    padding: 5px;
 }
 
-#formEmail {
-    margin-bottom: 5px;
-}
-
-#formMessage {
-    margin-bottom: 5px;
-}
 
 #messageBox {
     height: 250px;
