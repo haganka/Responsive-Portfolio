@@ -251,6 +251,53 @@ h2 {
     padding-top: 10px;
 }
 
+/* All below relate to contact form */
+.contactBox {
+    height: 700px;
+    margin-left: -100px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    border: .5px solid #dbdbdb;
+    background-color: #ffffff;
+}
+
+.formBox {
+    margin-top: -80px;
+    margin-left: -50px;
+}
+
+#formName {
+    margin-bottom: 5px;
+}
+
+#formEmail {
+    margin-bottom: 5px;
+}
+
+#formMessage {
+    margin-bottom: 5px;
+}
+
+#messageBox {
+    height: 250px;
+}
+
+#button {
+    background: #4aaaa5;
+    width: 70px;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+input {
+    width: 500px;
+    height: 20px;
+    padding: 6px;
+    margin-bottom: -10px;
+    font-size: 12px;
+}
 
 
 .foot {
