@@ -1,0 +1,266 @@
+body {
+    color: #777777;
+    background-image: url("../images/whirlpool.png");
+    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+    font-size: 16px;
+
+}
+
+.header {
+    background: #4aaaa5;
+    height: 100px;
+    width: 240px;
+    color: #ffffff;
+    width: 240px;
+    text-align: center;
+    
+}
+
+.topBox {
+    border-bottom: 2px solid #b9b9b9;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-family: "Georgia", "Times", "Times New Roman", "serif";
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 13px;
+}
+
+li {
+    list-style: none;
+    float: left;
+    margin-top: 35px;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+}
+
+
+/* These psuedocodes relate to the nav links */
+a:link {
+    color: rgb(136, 136, 136);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(136, 136, 136);
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(80, 77, 80);
+    text-decoration: none;
+}
+
+#myPhoto {
+    width: 200px;
+}
+
+#pageHead {
+    color: #4aaaa5;
+    font-family: "Georgia", "Times", "Times New Roman", "serif";
+    font-size: 30px;
+    border-bottom: 2px solid #b9b9b9;
+    padding-left: 40px;
+
+    
+
+}
+
+.aboutMe {
+    margin-left: -100px;
+    margin-top: 50px;
+    border: .5px solid #dbdbdb;
+    background-color: #ffffff;
+
+}
+
+.portfolioBox {
+    margin-left: -100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border: .5px solid #dbdbdb;
+    background-color: #ffffff;
+    height: 960px;
+}
+
+p {
+    padding: 10px;px;
+}
+
+.connectBox {
+    border: solid #dbdbdb;
+    border-width: .5px;
+    width: 300px;
+    margin-left: 80px;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+    color: #4aaaa5;
+    font-family: "Georgia", "Times", "Times New Roman", "serif";
+    font-size: 22px;
+    font-weight: bold; 
+    border-bottom: 2px solid #b9b9b9;
+    padding-bottom: 10px;
+}
+
+#github {
+    width: 80px;
+    float: left;
+    margin-right: 2px;
+    margin-left: 20px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    
+}
+
+#linked {
+    width: 80px;
+    float: left;
+    margin-left: 4px;
+    margin-right: 2px;
+    padding-top: 20px;
+}
+
+#stack {
+    width: 71px;
+    margin-top: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-top: 20px;
+}
+
+#dog, #cat, #horse, #tree, #giraffe, #puppy {
+    height: 250px;
+    z-index: -1;
+}
+
+#horse, #giraffe {
+    padding-left: 25px;
+}
+
+#cat {
+    padding-left: 15.5px;
+    padding-bottom: 20px; 
+}
+
+#horse {
+    padding-bottom: 20px;
+}
+
+#giraffe {
+    padding-bottom: 20px;
+}
+
+#dog {
+    padding-bottom: 20px;
+}
+
+#tree {
+    padding-bottom: 20px;
+}
+
+#puppy {
+    padding-bottom: 20px;
+}
+
+.catTitle {
+    color: #ffffff;
+    position: relative;
+    background-color: #4aaaa5;
+    z-index: 5;
+    text-align: center;
+    width: 307px;
+    height: 40px;
+    margin-left: 15px;
+    top: -70px;
+    padding-top: 10px;
+
+}
+
+.horseTitle {
+    color: #ffffff;
+    position: relative;
+    background-color: #4aaaa5;
+    z-index: 5;
+    text-align: center;
+    width: 307px;
+    height: 40px;
+    margin-left: 25px;
+    top: -70px;
+    padding-top: 10px;
+
+}
+
+#giraffeTitle {
+    color: #ffffff;
+    position: relative;
+    background-color: #4aaaa5;
+    z-index: 5;
+    text-align: center;
+    width: 307px;
+    height: 40px;
+    margin-left: 25px;
+    top: -70px;
+    padding-top: 10px;
+}
+
+#dogTitle {
+    color: #ffffff;
+    position: relative;
+    /* left: 160px;
+    top: -60px; */
+    background-color: #4aaaa5;
+    z-index: 5;
+    text-align: center;
+    width: 306px;
+    height: 40px;
+    /* margin-left: 15px; */
+    top: -70px;
+    padding-top: 10px;
+}
+
+#treeTitle {
+    color: #ffffff;
+    position: relative;
+    background-color: #4aaaa5;
+    z-index: 5;
+    text-align: center;
+    width: 306px;
+    height: 40px;
+    top: -70px;
+    padding-top: 10px;
+}
+
+#puppyTitle {
+    color: #ffffff;
+    position: relative;
+    background-color: #4aaaa5;
+    z-index: 5;
+    text-align: center;
+    width: 306px;
+    height: 40px;
+    top: -70px;
+    padding-top: 10px;
+}
+
+
+
+.foot {
+        background-color: rgb(107, 107, 107);
+        text-align: center;
+        padding: 10px;
+        font-size: 11px;
+        border-top: solid #adadad;
+        color:  #adadad;
+        margin-top: 50px;
+        position: fixed;
+        bottom: 0;
+}
