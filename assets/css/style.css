@@ -28,6 +28,12 @@ h1 {
     padding-top: 13px;
 }
 
+@ media screen and (max-width: size 768px) { 
+    .header {
+    width: 100%;
+    }
+}
+
 li {
     list-style: none;
     float: left;
@@ -90,6 +96,7 @@ a:hover {
     background-color: #ffffff;
     height: 80%;
     width: 60%;
+    /* float: left; */
 
 }
 
