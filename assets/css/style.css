@@ -155,6 +155,10 @@ h2 {
     margin-right: auto;
 }
 
+#cat {
+    width: 310px;
+}
+
 .titles {
     color: #ffffff;
     position: relative;
