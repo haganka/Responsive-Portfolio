@@ -147,7 +147,7 @@ h2 {
     padding-top: 20px;
 }
 
-#dog, #cat, #horse, #tree, #giraffe, #puppy {
+#dog, #hangman, #horse, #tree, #giraffe, #puppy {
     height: 250px;
     z-index: -1;
     padding-bottom: 20px; 
@@ -155,7 +155,7 @@ h2 {
     margin-right: auto;
 }
 
-#cat {
+#hangman {
     width: 310px;
 }
 
