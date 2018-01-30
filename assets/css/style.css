@@ -147,7 +147,7 @@ h2 {
     padding-top: 20px;
 }
 
-#dog, #hangman, #horse, #tree, #giraffe, #puppy {
+#crystal, #hangman, #horse, #tree, #giraffe, #puppy {
     height: 250px;
     z-index: -1;
     padding-bottom: 20px; 
@@ -156,7 +156,11 @@ h2 {
 }
 
 #hangman {
-    width: 310px;
+    width: 308px;
+}
+
+#crystal {
+    width: 308px;
 }
 
 .titles {
