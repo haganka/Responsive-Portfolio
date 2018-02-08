@@ -221,18 +221,29 @@ input {
 }
 
 
-.foot {
-        background-color: rgb(107, 107, 107);
-        text-align: center;
-        padding: 10px;
-        font-size: 11px;
-        border-top: solid #adadad;
-        color:  #adadad;
-        margin-top: 50px;
-        position: fixed;
-        bottom: 0;
-        z-index: 8;
+#foot {
+    background-color: rgb(107, 107, 107);
+    text-align: center;
+    padding: 10px;
+    font-size: 11px;
+    border-top: solid #adadad;
+    color:  #adadad;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 0;
+    z-index: 8;
+    vertical-align: middle;
 }
+
+.footer {
+    /* margin-top: 20px; */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 20px;
+    position: fixed;
+}
+
 
 .center-block {
   display: block;
